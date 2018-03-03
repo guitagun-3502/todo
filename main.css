@@ -1,3 +1,34 @@
-a {
-   
+body{
+   display:flex;
+   justify-content: space-around;
+}
+
+.task + .task{
+   margin-top: 20px;
+}
+
+.button{
+   cursor:pointer;
+   color:red;
+}
+
+.block{
+   width: 300px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   background-color: skyblue;
+   border-radius: 10px;
+   margin: 15px;
+}
+
+.perform, .delete, .recover{
+   width: 150px;
+   height: 50px;
+   background-color: pink;
+   text-align: center;
+   cursor:pointer;
+   border-radius: 10px;
 }
